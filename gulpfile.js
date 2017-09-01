@@ -42,4 +42,4 @@ gulp.task('watch', () => {
 });
 
 // create default task 
-gulp.task('default', ['styles', 'scripts', 'watch'])
+gulp.task('default', ['browser-sync', 'styles', 'scripts', 'watch'])
